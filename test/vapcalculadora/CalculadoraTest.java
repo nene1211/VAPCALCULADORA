@@ -95,7 +95,7 @@ public class CalculadoraTest {
         double num2 = 0.0;
         Calculadora instance = new Calculadora();
         double expResult = 0.0;
-        double result = instance.division(num1, num2);
+        double result = instance.division(num1 , num2);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
