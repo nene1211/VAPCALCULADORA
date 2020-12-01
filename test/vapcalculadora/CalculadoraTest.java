@@ -50,7 +50,7 @@ public class CalculadoraTest {
         double result = instance.suma(num1, num2);
         assertEquals(expResult, result, 4.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -59,14 +59,14 @@ public class CalculadoraTest {
     @Test
     public void testResta() {
         System.out.println("resta");
-        double num1 = 0.0;
-        double num2 = 0.0;
+        double num1 = 4.0;
+        double num2 = 2.0;
         Calculadora instance = new Calculadora();
         double expResult = 0.0;
         double result = instance.resta(num1, num2);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 2.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -75,14 +75,14 @@ public class CalculadoraTest {
     @Test
     public void testMultiplicacion() {
         System.out.println("multiplicacion");
-        double num1 = 0.0;
-        double num2 = 0.0;
+        double num1 = 2.0;
+        double num2 = 2.0;
         Calculadora instance = new Calculadora();
         double expResult = 0.0;
         double result = instance.multiplicacion(num1, num2);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 4.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -91,14 +91,14 @@ public class CalculadoraTest {
     @Test
     public void testDivision() {
         System.out.println("division");
-        double num1 = 0.0;
-        double num2 = 0.0;
+        double num1 = 6.0;
+        double num2 = 3.0;
         Calculadora instance = new Calculadora();
         double expResult = 0.0;
         double result = instance.division(num1, num2);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 2.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }
