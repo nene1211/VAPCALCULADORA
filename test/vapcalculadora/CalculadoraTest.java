@@ -7,12 +7,10 @@ package vapcalculadora;
 
 import org.junit.After;
 import org.junit.AfterClass;
-import static org.junit.Assert.fail;
-import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
+import static org.junit.Assert.*;
 
 /**
  *
@@ -45,14 +43,14 @@ public class CalculadoraTest {
     @Test
     public void testSuma() {
         System.out.println("suma");
-        double num1 = 4.0;
-        double num2 = 4.0;
+        double num1 = 2.0;
+        double num2 = 2.0;
         Calculadora instance = new Calculadora();
-        double expResult = 8.0;
+        double expResult = 0.0;
         double result = instance.suma(num1, num2);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 4.0);
         // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        fail("The test case is a prototype.");
     }
 
     /**
@@ -61,14 +59,14 @@ public class CalculadoraTest {
     @Test
     public void testResta() {
         System.out.println("resta");
-        double num1 = 4.0;
-        double num2 = 4.0;
+        double num1 = 0.0;
+        double num2 = 0.0;
         Calculadora instance = new Calculadora();
         double expResult = 0.0;
         double result = instance.resta(num1, num2);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        fail("The test case is a prototype.");
     }
 
     /**
@@ -84,7 +82,7 @@ public class CalculadoraTest {
         double result = instance.multiplicacion(num1, num2);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        fail("The test case is a prototype.");
     }
 
     /**
@@ -93,14 +91,14 @@ public class CalculadoraTest {
     @Test
     public void testDivision() {
         System.out.println("division");
-        double num1 = 6.0;
-        double num2 = 3.0;
+        double num1 = 0.0;
+        double num2 = 0.0;
         Calculadora instance = new Calculadora();
-        double expResult = 2.0;
-        double result = instance.division(num1 , num2);
+        double expResult = 0.0;
+        double result = instance.division(num1, num2);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        fail("The test case is a prototype.");
     }
     
 }
